@@ -1,0 +1,50 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav {
+    background-color: black;
+    font-family: 'Major Mono Display', monospace;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.left_nav {
+    float: left;
+    position: relative;
+    margin-top: 34px;
+    list-style: none;
+    color: white;
+}
+
+.left_nav li {
+    float: left;
+    margin-right: 24px;
+    font-size: 1.5em;
+}
+
+.right_nav {
+    float: right;
+    position: relative;
+    list-style: none;
+    margin-top: 34px;
+    color: white;
+}
+
+.right_nav li {
+    float: left;
+    margin-right: 24px;;
+    font-size: 1.5em;
+}
+
+.logo {
+    display: inline-block;
+    left: 40%;
+    color: white;
+    font-size: 2em;
+}
+
