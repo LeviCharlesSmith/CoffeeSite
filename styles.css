@@ -4,6 +4,10 @@ body {
     margin-right: 0px;
 }
 
+body, html {
+    height: 100%;
+  }
+
 nav {
     background-color: black;
     font-family: 'Major Mono Display', monospace;
@@ -48,3 +52,16 @@ nav {
     font-size: 2em;
 }
 
+.bg {
+    height: 100%;
+    width: 100%;
+    background-image: url("/Users/levismith/Dev/CoffeeSite/Media/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page_1, #page_2 {
+    height: 100%;
+    width: 100%;
+}
