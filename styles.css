@@ -16,7 +16,14 @@ nav {
     position: fixed;
     top: 0;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 
+a:hover {
+    color: cornflowerblue;
+}
 .left_nav {
     float: left;
     position: relative;
