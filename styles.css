@@ -54,7 +54,6 @@ a:hover {
 
 .logo {
     display: inline-block;
-    left: 40%;
     color: white;
     font-size: 2em;
 }
@@ -71,4 +70,20 @@ a:hover {
 #page_1, #page_2 {
     height: 100%;
     width: 100%;
+}
+
+/* CSS for Products Page */
+
+.product {
+    width: 400px;
+    margin-top: 150px;  
+}
+
+.center {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.row_1, .row_2 {
+    text-align: center;
 }
